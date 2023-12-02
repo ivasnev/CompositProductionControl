@@ -1,0 +1,32 @@
+QWidget {
+    background-color: #303030;
+    color: #ffffff;
+}
+
+QTabWidget::pane {
+    border: 1px solid #191919;
+    border-top-color: transparent;
+}
+
+QTabBar::tab {
+    background: #404040;
+    padding: 8px;
+    color: #ffffff;
+}
+
+QTabBar::tab:selected {
+    background: #505050;
+    border-bottom: 2px solid #3498db;
+}
+
+QLineEdit, QPushButton {
+    background-color: #505050;
+    color: #ffffff;
+    border: 1px solid #404040;
+    padding: 5px;
+}
+
+QLineEdit:focus, QPushButton:focus {
+    border: 1px solid #3498db;
+}
+
